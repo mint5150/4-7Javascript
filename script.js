@@ -1,4 +1,4 @@
-/*1. AND(&&)の条件を作成し、その処理に入るよう作ってください。(elseの処理も作成してください)*/ */
+/*1. AND(&&)の条件を作成し、その処理に入るよう作ってください。(elseの処理も作成してください)*/
 var stringA = "Javascript";
 var stringB = "CSS";
 if (stringA == "Javascript" && stringB == "HTML") {
@@ -9,14 +9,14 @@ if (stringA == "Javascript" && stringB == "HTML") {
     console.log(stringA == "Javascript" && stringB == "HTML");
 };
 
-/*2.OR(||)の条件を作成し、その処理に入るよう作ってください。(elseの処理も作成してください)*/ */
+/*2.OR(||)の条件を作成し、その処理に入るよう作ってください。(elseの処理も作成してください)*/
 var stringA = "Ruby";
 var stringB = "CSS";
 if (stringA == "Javascript" || stringB == "HTML") {
-    console.log("ANDの条件と一致した処理");
+    console.log("ORの条件と一致した処理");
     console.log(stringA == "Javascript" || stringB == "HTML");
   } else {
-    console.log("ANDの条件と一致しなかった処理");
+    console.log("ORの条件と一致しなかった処理");
     console.log(stringA == "Javascript" || stringB == "HTML");
 };
 
